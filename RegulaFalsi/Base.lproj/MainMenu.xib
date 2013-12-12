@@ -136,7 +136,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4KJ-71-ASc">
-                        <rect key="frame" x="251" y="70" width="148" height="22"/>
+                        <rect key="frame" x="242" y="77" width="178" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" drawsBackground="YES" id="0gG-Tv-wfZ">
                             <font key="font" metaFont="system"/>
@@ -145,7 +145,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eTh-cr-HRg">
-                        <rect key="frame" x="249" y="100" width="152" height="17"/>
+                        <rect key="frame" x="255" y="107" width="152" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Przybliżony pierwiastek" id="PMq-eN-3t3">
                             <font key="font" metaFont="system"/>
@@ -154,7 +154,7 @@
                         </textFieldCell>
                     </textField>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xJ1-9W-Bkj">
-                        <rect key="frame" x="284" y="33" width="85" height="32"/>
+                        <rect key="frame" x="289" y="20" width="85" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Oblicz!" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="UEI-qp-inn">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -174,7 +174,7 @@
                     <button fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="rAT-iW-het">
                         <rect key="frame" x="19" y="237" width="22" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" alignment="left" id="SPf-l4-M0K">
+                        <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" id="SPf-l4-M0K">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -401,6 +401,14 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v0E-HI-nY2">
+                        <rect key="frame" x="240" y="53" width="182" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="check" title="Arytmetyka przedziałowa" bezelStyle="regularSquare" imagePosition="left" inset="2" id="rlI-VF-45u">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
                 </subviews>
             </view>
         </window>
@@ -409,6 +417,7 @@
                 <outlet property="constParamField" destination="74f-ny-vFg" id="bFA-z4-bUL"/>
                 <outlet property="deltaField" destination="NX0-eb-wP2" id="8e1-oF-Btq"/>
                 <outlet property="intervalAField" destination="5kE-e0-2P2" id="xJv-fu-pE8"/>
+                <outlet property="intervalArithmeticsCheckbox" destination="v0E-HI-nY2" id="0Pq-MH-xnU"/>
                 <outlet property="intervalBField" destination="pCJ-Mi-KRk" id="1Kv-Fp-sHG"/>
                 <outlet property="maxIterationsField" destination="z5b-p8-1yY" id="pKl-tu-XOU"/>
                 <outlet property="solutionField" destination="4KJ-71-ASc" id="qTh-4h-mVV"/>

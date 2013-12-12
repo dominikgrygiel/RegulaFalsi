@@ -387,7 +387,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RegulaFalsi/RegulaFalsi-Prefix.pch";
 				INFOPLIST_FILE = "RegulaFalsi/RegulaFalsi-Info.plist";
+				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/**";
+				OTHER_LDFLAGS = "-lmpfi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/Cellar/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -400,7 +403,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RegulaFalsi/RegulaFalsi-Prefix.pch";
 				INFOPLIST_FILE = "RegulaFalsi/RegulaFalsi-Info.plist";
+				LIBRARY_SEARCH_PATHS = "/usr/local/Cellar/**";
+				OTHER_LDFLAGS = "-lmpfi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/Cellar/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -464,6 +470,7 @@
 				B4D871F118598E3E00C076A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4D871F218598E3E00C076A6 /* Build configuration list for PBXNativeTarget "RegulaFalsiTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +479,7 @@
 				B4D871F418598E3E00C076A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

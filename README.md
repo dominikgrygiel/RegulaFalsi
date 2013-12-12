@@ -3,3 +3,6 @@
 
 EAN university project
 
+### Requirements
+- [MPFI](https://gforge.inria.fr/projects/mpfi/)
+

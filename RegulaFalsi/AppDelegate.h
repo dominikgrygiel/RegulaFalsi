@@ -25,6 +25,7 @@
 @property (weak) IBOutlet NSTextField *maxIterationsField;
 @property (weak) IBOutlet NSTextField *deltaField;
 @property (weak) IBOutlet NSTextField *solutionField;
+@property (weak) IBOutlet NSButton *intervalArithmeticsCheckbox;
 
 
 - (IBAction)selectedRadio:(id)sender;
