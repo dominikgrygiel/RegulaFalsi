@@ -154,7 +154,7 @@ void (*mpfi_fs[7]) (mpfi_ptr, mpfi_srcptr) = { mpfi_sinXbyX, mpfi_cosXbyX, mpfi_
         currIteration++;
     }
 
-    [self.solutionField setStringValue:[NSString stringWithFormat:@"%0.15Lf", x]];
+    [self.solutionField setStringValue:[NSString stringWithFormat:@"%0.18Lf", (long double)x]];
 }
 
 - (void)solveWithIntervalArithmetics {
@@ -213,7 +213,7 @@ void (*mpfi_fs[7]) (mpfi_ptr, mpfi_srcptr) = { mpfi_sinXbyX, mpfi_cosXbyX, mpfi_
         currIteration++;
     }
 
-    [self.solutionField setStringValue:[NSString stringWithFormat:@"%0.15f", mpfi_get_d(x)]];
+    [self.solutionField setStringValue:[NSString stringWithFormat:@"%0.18f", mpfi_get_d(x)]];
 
     mpfi_clear(temp2);
     mpfi_clear(temp1);
